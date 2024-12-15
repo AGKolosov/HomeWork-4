@@ -4,11 +4,6 @@ public class Main {
         int age = 18;
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний");
-        }
-        if (age < 18) {
-        int age = 17;
-        if (age >= 18) {
-            System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний");
         } else {
             System.out.println("Если возраст человека равен " + age + ", он не достиг совершеннолетия, нужно немного подождать");
         }
@@ -17,25 +12,15 @@ public class Main {
         int temp = 5;
         if (temp < 5) {
             System.out.println("На улице " + temp + " градусов, нужно надеть шапку");
-        }
-        if (temp >= 5) {
-        int temp = 7;
-        if (temp < 5) {
-            System.out.println("На улице " + temp + " градусов, нужно надеть шапку");
-        } else {
+        } else  {
             System.out.println("На улице " + temp + " градусов, можно идти без шапки");
         }
         System.out.println();
         // Задание 3
         int speed = 60;
-        if (speed > 60) {
-            System.out.println("Если скорость " + speed + " км/ч, то придется заплатить штраф");
-        }
-        if (temp <= 60) {
-        int speed = 57;
         if (speed >= 60) {
             System.out.println("Если скорость " + speed + " км/ч, то придется заплатить штраф");
-        } else {
+        } else  {
             System.out.println("Если скорость " + speed + " км/ч, то можно ездить спокойно");
         }
         System.out.println();
@@ -97,7 +82,7 @@ public class Main {
             System.out.println("Число " + two + " больше остальных");
         } else {
             System.out.println("Число " + three + " больше остальных");
-            }
+        }
         System.out.println();
 
     }
